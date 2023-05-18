@@ -8,6 +8,10 @@ the code is
 import pyautogui
 i = 0
 while True:
+    pyautogui.press('space', interval=15)
+    pyautogui.write(str("w"))
+    pyautogui.press('enter')
+    
     pyautogui.write(str("OwO"), interval = 0.1)
     pyautogui.press('space')
     pyautogui.write(str("hunt"), interval=0.1)
@@ -21,8 +25,15 @@ while True:
     pyautogui.write(str("battle"), interval=0.1)
     pyautogui.press('enter')
 
-    pyautogui.write(str("w"), interval=15)
-    pyautogui.press('enter')
+#AutoOwobotOwO 
+'''
 
-#AutoOwobotOwO OwO 
+
+
+
+
+
+
+
+'''
 ```
