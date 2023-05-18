@@ -8,7 +8,7 @@ Before running this code, make sure you have the following:
 
 - Python installed on your system (version X.X or higher).
 - The `pyautogui` library installed. You can install it by running the following command:
-pip install pyautogui
+```pip install pyautogui```
 
 css
 Copy code
