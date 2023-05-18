@@ -11,9 +11,6 @@ Before running this code, make sure you have the following:
 
 ```pip install pyautogui```
 
-css
-Copy code
-
 ## How to Create the OwOautoBot.py File
 
 To create the `OwOautoBot.py` file, follow these steps:
