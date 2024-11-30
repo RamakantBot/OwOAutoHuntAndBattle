@@ -1,4 +1,4 @@
-# OwOautoBot
+# owo-auto.py
 
 This script automates a series of actions in a game or application using the `pyautogui` library in Python.
 
@@ -6,12 +6,14 @@ This script automates a series of actions in a game or application using the `py
 
 Before running this code, make sure you have the following:
 
-- Python installed on your system (version X.X or higher).
+- Python installed on your system (version 3.12 or higher).
 - The `pyautogui` library installed. You can install it by running the following command:
 
-```pip install pyautogui```
+```bash
+pip install pyautogui
+```
 
-## How to Create the OwOautoBot.py File
+<!-- ## How to Create the OwOautoBot.py File
 
 To create the `OwOautoBot.py` file, follow these steps:
 
@@ -53,20 +55,22 @@ while True:
 '''
 ```
 
-3. Save the file with the name ```OwOautoBot.py``` and choose a location on your system to save it.
+3. Save the file with the name ```OwOautoBot.py``` and choose a location on your system to save it. -->
 
 ## How to Run
-To run the OwOautoBot.py file, follow these steps:
 
-1. Open a terminal or command prompt and navigate to the directory where the OwOautoBot.py file is located.
+1. Download the project (main.zip)[https://github.com/RamakantBot/OwOAutoHuntAndBattle/archive/refs/heads/main.zip]
 
-2. Run the following command to execute the script:
-```python OwOautoBot.py```
-Make sure you have Python installed and added to your system's PATH.
+2. Right-click and extract the file and open the extracted folder in the terminal or command prompt or (vs code)[https://code.visualstudio.com/]
 
-3. Once the script starts running, it will automate a series of actions as described in the code. The actions include pressing the space key, typing specific characters, and pressing the enter key. These actions may be specific to a game or application.
+3. Run the following command to execute the script:
+```bash
+python owo-auto.py
+```
 
-4. To stop the script, you can either close the terminal or press ```Ctrl+C``` in the terminal window.
+4. Once the script starts running, it will automate a series of actions as described in the code. The actions include pressing the space key, typing specific characters, and pressing the enter key. These actions may be specific to a game or application.
+
+5. To stop the script, you can either close the terminal or press ```Ctrl+C``` in the terminal window.
 
 ## Important Note
 
