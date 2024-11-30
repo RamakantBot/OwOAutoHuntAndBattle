@@ -15,7 +15,7 @@ def main():
 # -------------------------------------------------------------------------------
 
 def custom():
-    pyautogui.write(str(":P"), interval = 0.1)
+    pyautogui.write(str("rp"), interval = 0.1)
     pyautogui.press('enter')
 
 def hunt():
