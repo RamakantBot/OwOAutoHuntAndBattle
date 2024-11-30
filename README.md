@@ -19,7 +19,7 @@ To create the `OwOautoBot.py` file, follow these steps:
 
 2. Copy the following code and paste it into the text editor:
 
-```
+```python 
 import pyautogui
 i = 0
 while True:
