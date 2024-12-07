@@ -1,4 +1,4 @@
-# owo-auto.py
+# auto-owo.py
 
 This script automates a series of actions in a game or application using the `pyautogui` library in Python.
 
@@ -65,7 +65,7 @@ while True:
 
 3. Run the following command to execute the script:
 ```bash
-python owo-auto.py
+python auto-owo.py
 ```
 
 4. Once the script starts running, it will automate a series of actions as described in the code. The actions include pressing the space key, typing specific characters, and pressing the enter key. These actions may be specific to a game or application.
