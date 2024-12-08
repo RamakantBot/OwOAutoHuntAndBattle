@@ -30,6 +30,15 @@ time.sleep(1)
 # Get user-defined prefix or use default
 user_prefix = input("Enter the bot prefix (optional): ") or 'owo '
 
+# Ask if the user wants to add the default pray command
+add_pray_command = input("Do you want to add the 'pray' command? (yes/no, default is yes): ").strip().lower() or 'yes'
+if add_pray_command in ['yes', 'y']:
+    # Use the default pray command cooldown
+    custom_pray_cooldown = PRAY_COOLDOWN
+else:
+    custom_pray_cooldown = None
+    print("No pray command will be added.\n")
+
 # Ask if the user wants to add a custom command
 while True:
     add_custom_command = input("Do you want to add a custom command? (yes/no): ").strip().lower()
@@ -80,7 +89,7 @@ def main():
                 time.sleep(random.uniform(1, 4))  # Random delay up to 3 seconds
 
         # Check if we can perform the pray command
-        if current_time - last_pray_time >= PRAY_COOLDOWN:
+        if custom_pray_cooldown and current_time - last_pray_time >= custom_pray_cooldown:
             pray(start_time)
             last_pray_time = current_time
             time.sleep(random.uniform(1, 4))  # Random delay up to 3 seconds
@@ -108,7 +117,6 @@ def get_relative_time(start_time):
     minutes, seconds = divmod(remainder, 60)
     milliseconds = int((elapsed_time - int(elapsed_time)) * 1000)
     return f"{int(hours):02}:{int(minutes):02}:{int(seconds):02}:{milliseconds:03}"
-
 
 # --------------------------------------------------------------------------------------------------------------------------
 
@@ -142,5 +150,3 @@ def random_command(start_time):
 
 if __name__ == "__main__":
     main()
-
-
